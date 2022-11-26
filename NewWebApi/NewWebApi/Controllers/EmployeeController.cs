@@ -69,7 +69,7 @@ namespace NewWebApi.Controllers
                 return emps.Where(x => x.Id == id);
 
             return emps;
-        }
+        }// this is final output
 
 
     }
