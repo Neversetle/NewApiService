@@ -83,10 +83,7 @@ namespace NewWebApi.Controllers
         }
 
 
-        public void Dispose()
-        {
-            dbContext.Dispose();
-        }
+     
         
     }
 }
